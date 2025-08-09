@@ -53,12 +53,12 @@
 <ol>
 	<li>
 		<p>
-			Go to <a href="https://github.com/xiaorouji/openwrt-passwall/releases/passwall">https://github.com/xiaorouji/openwrt-passwall/releases/&nbsp;</a>&nbsp; &nbsp; &nbsp; &nbsp;<span>(</span><span>passwall<span>)</span></span> 
+			Go to ：<a href="https://github.com/xiaorouji/openwrt-passwall/releases/passwall">https://github.com/xiaorouji/openwrt-passwall/releases/&nbsp;</a>&nbsp; &nbsp; &nbsp; &nbsp;<span>(</span><span>passwall<span>)</span></span> 
 		</p>
 	</li>
 	<li>
 		<p>
-			Go to <a href="https://github.com/xiaorouji/openwrt-passwall2/releases/passwall2">https://github.com/xiaorouji/openwrt-passwall2/releases/&nbsp;</a>&nbsp; &nbsp; &nbsp;<span>(</span><span>passwall2<span>)</span></span> 
+			Go to ：<a href="https://github.com/xiaorouji/openwrt-passwall2/releases/passwall2">https://github.com/xiaorouji/openwrt-passwall2/releases/&nbsp;</a>&nbsp; &nbsp; &nbsp;<span>(</span><span>passwall2<span>)</span></span> 
 		</p>
 	</li>
 </ol>
@@ -67,8 +67,7 @@
 </p>
 <p style="text-indent:2em;">
 	Download 
-luci-19.07_luci-i18n-passwall-zh-cn_25.7.4-1_all.ipk, rename it to 
-luci-i18n-passwall-zh-cn_all.ipk, upload and install.
+luci-19.07_luci-i18n-passwall-zh-cn_25.7.4-1_all.ipk, rename it to luci-i18n-passwall-zh-cn_all.ipk, upload and install.
 </p>
 <p>
 	<br />
@@ -93,25 +92,20 @@ luci-i18n-passwall-zh-cn_all.ipk, upload and install.
 </div>
 <p style="text-indent:2em;">
 	<div class="highlight highlight-source-shell notranslate position-relative overflow-auto">
-<pre>#iptables
+<pre>
+#iptables
 opkg update
 opkg install bash iptables dnsmasq-full curl ca-bundle ipset ip-full iptables-mod-tproxy iptables-mod-extra ruby ruby-yaml kmod-tun kmod-inet-diag unzip luci-compat luci luci-base
 opkg install /tmp/openclash.ipk
-
 apk update
 apk add bash iptables dnsmasq-full curl ca-bundle ipset ip-full iptables-mod-tproxy iptables-mod-extra ruby ruby-yaml kmod-tun kmod-inet-diag unzip luci-compat luci luci-base
 apk add -q --force-overwrite --clean-protected --allow-untrusted /tmp/openclash.apk
-
-</pre>
-	</div>
-</p>
+</pre></div></p>
 <pre>
-
 #nftables
 opkg update
 opkg install bash dnsmasq-full curl ca-bundle ip-full ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base
 opkg install /tmp/openclash.ipk
-
 apk update
 apk add bash dnsmasq-full curl ca-bundle ip-full ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base
 apk add -q --force-overwrite --clean-protected --allow-untrusted /tmp/openclash.apk<span class="pl-s"><span class="pl-pds"></span><span class="pl-pds"></span></span></pre>
@@ -122,7 +116,7 @@ apk add -q --force-overwrite --clean-protected --allow-untrusted /tmp/openclash.
 	Install the above dependencies in order, installing each dependency separately.
 </p>
 <p style="text-indent:2em;">
-	<a href="https://github.com/vernesong/OpenClash/releases">releases</a> 
+	from ：<a href="https://github.com/vernesong/OpenClash/releases">https://github.com/vernesong/OpenClash/releases</a>
 </p>
 <p style="text-indent:2em;">
 	4.Next, download luci-app-openclash_0.46.115_all.ipk, rename it to luci-app-openclash_all.ipk, and upload it for installation.
@@ -160,8 +154,7 @@ apk add -q --force-overwrite --clean-protected --allow-untrusted /tmp/openclash.
 	</li>
 </ol>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto">
-<pre><span class="pl-c"><span class="pl-c">
-	#</span> only needs to be run once</span>
+<pre><span class="pl-c"><span class="pl-c">#<span> only needs to be run once</span>
 wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/feed.sh <span class="pl-k">|</span> ash</pre>
 	<div class="zeroclipboard-container">
 	</div>
@@ -291,7 +284,7 @@ make package/luci-app-nikki/compile</pre>
 	<strong>OpenWrt LuCI Theme</strong> 
 </h1>
 <p style="text-indent:2em;">
-	<a href="https://github.com/jerrykuku/luci-theme-argon/">argon > </a><span style="font-size:12px;font-weight:normal;">/&nbsp;</span><strong>Brand new OpenWrt LuCI theme</strong> 
+	<a href="https://github.com/jerrykuku/luci-theme-argon/">argon > </a><span style="font-size:12px;font-weight:normal;">&nbsp;</span><strong>Brand new OpenWrt LuCI theme</strong> 
 </p>
 
 <p style="text-indent:2em;">
@@ -376,15 +369,13 @@ opkg install luci-app-argon-config<span class="pl-k">*</span>.ipk</pre>
 <a id="user-content-skin-download" class="anchor" href="https://github.com/linsiqun/VSPdeployment/blob/main/VPSnodes.md#skin-download"></a> 
 </div>
 <p style="text-indent:2em;">
-	from <a href="https://github.com/jerrykuku/luci-app-argon-config/releases/">https://github.com/jerrykuku/luci-app-argon-config/releases/</a>&nbsp; &nbsp;
+	from ：<a href="https://github.com/jerrykuku/luci-app-argon-config/releases/">https://github.com/jerrykuku/luci-app-argon-config/releases/</a>&nbsp; &nbsp;
 </p>
 <p style="text-indent:2em;">
-	<span>Next, download 
-luci-i18n-argon-config-zh-cn_git-22.114.24542-d1474ba_all.ipk Rename it 
-to luci-i18n-argon-config-cn.ipk and upload it for installation.</span> 
+	<span>Next, download luci-i18n-argon-config-zh-cn_git-22.114.24542-d1474ba_all.ipk Rename it to luci-i18n-argon-config-cn.ipk and upload it for installation.</span> 
 </p>
 <p style="text-indent:2em;">
-	from <a href="https://github.com/jerrykuku/luci-theme-argon/releases/">https://github.com/jerrykuku/luci-theme-argon/releases/</a><span>&nbsp; &nbsp;&nbsp;</span> 
+	from ：<a href="https://github.com/jerrykuku/luci-theme-argon/releases/">https://github.com/jerrykuku/luci-theme-argon/releases/</a><span>&nbsp; &nbsp;&nbsp;</span> 
 </p>
 <p style="text-indent:2em;">
 	Next, download luci-theme-argon-2.4.3-r20250722.apk , rename it to luci-theme-argon.apk and upload it for installation.
@@ -400,7 +391,7 @@ to luci-i18n-argon-config-cn.ipk and upload it for installation.</span>
 </p>
 <p style="text-indent:2em;">
 <pre>	
-# Enter the kernel installation directory
+    # Enter the kernel installation directory
 	cd /etc/openclash/core/clash_meta
 	# Download the kernel installation package
 	wget https://raw.githubusercontent.com/vernesong/OpenClash/core/dev/smart/clash-linux-amd64-v1.tar.gz
@@ -408,8 +399,7 @@ to luci-i18n-argon-config-cn.ipk and upload it for installation.</span>
     tar -zxvf clash-linux-amd64-v1.tar.gz
     #Grant highest authority
 	chmod 777 clash
-</p>
-<span class="pl-s"><span class="pl-pds"></span><span class="pl-pds"></span></span></pre>
+<span class="pl-s"><span class="pl-pds"></span><span class="pl-pds"></span></span></pre></p>
 <p>
 	<br />
 </p>

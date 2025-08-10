@@ -20,7 +20,7 @@
 	e. <a href="https://github.com/nikkinikki-org/OpenWrt-nikki/blob/main/README.zh.md">https://github.com/nikkinikki-org/OpenWrt-nikki/blob/main/README.zh.md</a>&nbsp; &nbsp; (nikki)
 </p>
 <p style="text-indent:2em;">
-	<strong>1. To install all other package definitions, run: command&nbsp;</strong>(After installing the original OpenWrt version)
+	<strong>1. To install all other package definitions, run: command </strong>(After installing the original OpenWrt version)
 </p>
 <p style="text-indent:2em;">
 	<strong>The following command</strong> 
